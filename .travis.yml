@@ -13,4 +13,4 @@ install:
  - pip install tox
 
 script:
- - tox
+ - JENKINS_URL=1 tox
